@@ -7,12 +7,9 @@ galaxy_info:
   platforms:
   - name: Ubuntu
     versions:
-    - xenial
-    - bionic
     - focal
   - name: Debian
     versions:
-    - stretch
     - buster
   galaxy_tags:
     - packages
