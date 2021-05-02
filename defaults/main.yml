@@ -1,0 +1,11 @@
+---
+various_apt_packages:
+- gimp
+- gthumb
+- inkscape
+- darktable
+- audacity
+- pt2-clone
+- youtube-dl
+- ffmpeg
+- atomicparsley
