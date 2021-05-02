@@ -24,3 +24,10 @@
   apt:
     pkg: spotify-client
   tags: spotify
+- name: Add protracker clone if available
+  apt:
+    pkg: pt2-clone
+  when: ansible_distribution == "Debian" and
+          ansible_distribution_major_version is version('11', '>=') or
+        ansible_distribution == "Ubuntu" and
+          ansible_distribution_major_version is version('20.04', '>=')
