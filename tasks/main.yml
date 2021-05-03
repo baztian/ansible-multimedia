@@ -8,6 +8,16 @@
   apt:
     pkg:
       - dirmngr
+- name: Install youtube-dl
+  include_role:
+    name: baztian.pip_venv
+    apply:
+      tags:
+        - youtube_dl
+  vars:
+      pkg: youtube-dl
+      version: "{{ youtube_dl_version }}"
+  tags: youtube_dl
 - name: Add Spotify signing key on remote server to keyring
   apt_key:
     # Id found via

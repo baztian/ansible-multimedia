@@ -6,6 +6,10 @@ various_apt_packages:
 - darktable
 - audacity
 - picard
-- youtube-dl
+# following are recommended for youtube-dl
 - ffmpeg
 - atomicparsley
+- rtmpdump
+- mpv
+- aria2
+youtube_dl_version: 2021.04.26
