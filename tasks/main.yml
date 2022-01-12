@@ -22,7 +22,7 @@
   apt_key:
     # Id found via
     # https://keyserver.ubuntu.com/pks/lookup?search=Spotify+Public+Repository+Signing+Key&fingerprint=on&op=index
-    id: 8fd3d9a8d3800305a9fff259d1742ad60d811d58
+    id: f9a211976ed662f00e59361e5e3c45d7b312c643
     keyserver: keyserver.ubuntu.com
   tags: spotify
 - name: Add apt repo for Spotify
